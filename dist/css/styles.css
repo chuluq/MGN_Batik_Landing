@@ -193,12 +193,25 @@ img {
 }
 
 @media (max-width: 700px) {
+  body {
+    font-size: 1rem;
+  }
+  .navbar {
+    font-size: 1rem;
+  }
+  .navbar .container .logo {
+    font-size: 1.5rem;
+  }
+
   .showcase {
     margin: 2rem 0;
   }
   .showcase .container {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+  .showcase h1 {
+    font-size: 3rem;
   }
   .showcase .container div:first-child {
     order: 2;
@@ -209,6 +222,17 @@ img {
   .showcase img {
     width: 80%;
     margin: auto;
+  }
+
+  .about-inner h3 {
+    font-size: 1.5rem;
+  }
+  .about-inner h2 {
+    font-size: 4rem;
+  }
+  .about-inner p {
+    font-size: 1.1rem;
+    margin: 0 1rem;
   }
 
   .galleries .gallery {
@@ -234,7 +258,14 @@ img {
     grid-template-columns: 1fr;
     text-align: center;
   }
+  .footer h2 {
+    font-size: 1.5rem;
+  }
   .footer div:nth-child(2) {
     display: none;
+  }
+
+  .btn {
+    font-size: 1rem;
   }
 }
