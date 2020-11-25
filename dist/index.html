@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
@@ -35,13 +36,12 @@
         <div>
           <h1>Batik in Style</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            eius error commodi sapiente, voluptatem modi incidunt placeat ipsum
-            qui voluptatibus.
+            Batik Indonesia, sebagai keseluruhan teknik, teknologi, serta pengembangan motif dan budaya yang terkait, oleh UNESCO telah ditetapkan sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi (Masterpieces of the Oral and Intangible Heritage of Humanity)
           </p>
           <a href="#about" class="btn">Read More</a>
+          <a href="https://wa.me/6287736730707" target="_blank" class="btn">Buy Now</a>
         </div>
-        <img src="img/shopping.svg" alt="Shopping" />
+        <img src="img/1.png" />
       </div>
     </section>
 
@@ -52,9 +52,7 @@
           <h3>Simple yet Elegant</h3>
           <h2>Best Shirt for Any Situation</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            blanditiis aliquam optio repellendus. Mollitia harum tempora
-            numquam, fugiat quis ab.
+            MGN Batik menyediakan batik berkualitas dengan motif aneka ragam. Dengan desain yang trendi anda sekarang dapat memakai batik di segala aktivitas.
           </p>
         </div>
       </div>
@@ -63,12 +61,12 @@
     <!-- Gallery -->
     <section class="galleries">
       <div class="gallery">
-        <a href="img/1.jpg" class="big"> <img src="img/1.jpg" /></a>
-        <a href="img/overlay.jpg" class="big"> <img src="img/overlay.jpg" /></a>
-        <a href="img/3.jpg" class="big"> <img src="img/3.jpg" /></a>
-        <a href="img/4.jpg" class="big"> <img src="img/4.jpg" /></a>
-        <a href="img/2.jpg" class="big"> <img src="img/2.jpg" /></a>
-        <a href="img/5.jpg" class="big"> <img src="img/5.jpg" /></a>
+        <a href="img/1.png" class="big"> <img src="img/1.png" /></a>
+        <a href="img/2.png" class="big"> <img src="img/2.png" /></a>
+        <a href="img/3.png" class="big"> <img src="img/3.png" /></a>
+        <a href="img/4.png" class="big"> <img src="img/4.png" /></a>
+        <a href="img/5.png" class="big"> <img src="img/5.png" /></a>
+        <a href="img/6.png" class="big"> <img src="img/6.png" /></a>
       </div>
     </section>
 
@@ -76,24 +74,21 @@
     <footer class="footer py-4 bg-primary">
       <div class="container">
         <div>
-          <h2 class="text-2 mb-1">MGN Batik</h2>
+          <h2 class="text-2 mb-2"MGN Batik</h2>
           <a href="https://instagram.com/mgn.batik" target="_blank">
             <i class="fab fa-instagram fa-2x"></i>
           </a>
-          <a href="https://telegram.org" target="_blank">
-            <i class="fab fa-telegram fa-2x"></i
-          ></a>
-          <a href="https://shopee.com" target="_blank">
-            <i class="fas fa-store fa-2x"></i
-          ></a>
+          <a href="https://wa.me/6287736730707" target="_blank">
+            <i class="fab fa-whatsapp fa-2x"></i>
+          </a>
         </div>
         <div>
           <h3>Company Info</h3>
           <ul>
+            <li><a href="#about">About us</a></li>
             <li>
-              <a href="https://shopee.com" target="_blank">All Products</a>
+              <a href="https://wa.me/6287736730707" target="_blank">Contact us</a>
             </li>
-            <li><a href="#about">About Us</a></li>
           </ul>
         </div>
         <div class="copyright">
@@ -114,6 +109,7 @@
       (function () {
         var $gallery = new SimpleLightbox('.gallery a', {});
       })();
+      ScrollReveal().reveal('.about');
     </script>
   </body>
 </html>
