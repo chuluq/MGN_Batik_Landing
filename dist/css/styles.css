@@ -92,7 +92,8 @@ img {
 /* About */
 .about {
   position: relative;
-  background: url('/dist/static/overlay.jpg') no-repeat bottom center/cover;
+  background: url('https://images.unsplash.com/photo-1444362408440-274ecb6fc730?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80')
+    no-repeat bottom center/cover;
   height: 600px;
 }
 .about-inner {
